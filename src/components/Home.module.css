@@ -1,0 +1,19 @@
+/* Home.module.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+.highlight {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 5px;
+}
