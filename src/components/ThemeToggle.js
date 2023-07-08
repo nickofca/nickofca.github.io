@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import ThemeContext from '../ThemeContext';
 import styles from './ThemeToggle.module.css';
 
+
 function ThemeToggle() {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
@@ -22,7 +23,7 @@ function ThemeToggle() {
           </>
         ) : (
           <>
-            <path d="M12 6.5c3.026 0 5.5 2.474 5.5 5.5s-2.474 5.5-5.5 5.5-5.5-2.474-5.5-5.5S8.974 6.5 12 6.5zM12 4C7.589 4 4 7.589 4 12s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8z" fill="#708090" />
+            <path fill="none" stroke="#708090" d="M 20,10 A 10,10 0 0,1 20,30 A 6,6 0 0,1 20,10" />
           </>
         )}
       </svg>

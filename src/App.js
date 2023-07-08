@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import styles from './App.module.css';
 import ThemeContext from './ThemeContext';
+import Footer from './components/Footer'; // Import the Footer component
 import ThemeToggle from './components/ThemeToggle';
 
 function App() {
@@ -38,6 +39,10 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/about" element={<About />} />
           </Routes>
+
+          <div className={styles.footerContainer}>
+            <Footer /> {/* Include the Footer component */}
+          </div>
         </div>
       </Router>
     </ThemeContext.Provider>
