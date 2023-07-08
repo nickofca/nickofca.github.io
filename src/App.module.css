@@ -13,16 +13,47 @@
 }
 
 .highlight {
-  background-color: lightblue;
   padding: 20px;
   border-radius: 5px;
 }
 
 .nav a {
   text-decoration: none;
+}
+
+/* Light theme styles */
+.light {
+  background-color: white;
   color: black;
 }
 
-.nav a:hover {
-  color: gray;  /* replace with your preferred hover color */
+.light .nav {
+  background-color: white;
+}
+
+.light .nav a {
+  color: black;
+}
+
+/* Set the hover color for the light theme here */
+.light .nav a:hover {
+  color: #888888;
+}
+/* Dark theme styles (resembling OpenAI GPT-4 interface) */
+.dark {
+  background-color: #2f3136; /* Dark grey background */
+  color: #dcddde; /* Light grey text */
+}
+
+.dark .nav {
+  background-color: #2f3136;
+}
+
+.dark .nav a {
+  color: #dcddde;
+}
+
+/* Set the hover color for the dark theme here */
+.dark .nav a:hover {
+  color: #555555;
 }

@@ -1,0 +1,17 @@
+.themeToggle {
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.8s ease-in-out;
+}
+
+.sun {
+  transform: rotate(0);
+}
+
+.moon {
+  transform: rotate(180deg);
+}
