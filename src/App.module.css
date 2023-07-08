@@ -1,4 +1,4 @@
-/* Home.module.css */
+/* App.module.css */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -16,4 +16,13 @@
   background-color: lightblue;
   padding: 20px;
   border-radius: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover {
+  color: gray;  /* replace with your preferred hover color */
 }
