@@ -8,7 +8,7 @@ import ThemeContext from './ThemeContext';
 import ThemeToggle from './components/ThemeToggle';
 
 function App() {
-  const [theme, setTheme] = useState('light'); // Add state for the theme
+  const [theme, setTheme] = useState('dark'); // Add state for the theme
 
   const toggleTheme = () => {
     setTheme((prevTheme) => prevTheme === 'light' ? 'dark' : 'light');
